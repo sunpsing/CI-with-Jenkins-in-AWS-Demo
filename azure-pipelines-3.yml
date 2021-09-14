@@ -22,3 +22,6 @@ steps:
     goals: 'package'
 
 - task: PublishBuildArtifacts@1
+- task: WhiteSource@21
+  inputs:
+    projectName: 'scrum-demo-whitesrc'
